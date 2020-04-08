@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- *************************** CSS - ПОДКЛЮЧЕНИЯ ****************************** -->
+    <link rel="stylesheet" href="style/bootstrap.min.css" />
+    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="stylesheet" href="style/style.css" />
+</head>
+
+<body>
+    <!-- ******************************* HEADER START ***************************** -->
+    <header class="header d-flex flex-column min-vh-100">
+        <div class="container">
+            <nav class="navbar-expand-md justify-content-between d-flex align-items-center flex-wrap pt-5">
+                <a class="logo" href="#">spirit8</a>
+                <button class="navbar-toggler header__nav-button" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent">
+                    <span class="fad fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="header__nav-link" href="#history">home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="header__nav-link" href="#history">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="header__nav-link" href="#history">services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="header__nav-link" href="#history">portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="header__nav-link" href="#works">testominials</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="header__nav-link" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown">
+                                contacts
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="tel:+998901234567">+ 998 90 123 45 67</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="mailto:mymail@mail.my">mymail@mail.my</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="container">
+                <div class="header__text d-flex justify-content-center flex-column align-items-center">
+                    <div class="header__text-title text-uppercase">wELCOME on <span
+                            class="header__text-span">spirit8</span></div>
+                    <div class="header__text-descr">We are a digital agency with <span class="header__descr-span">years
+                            of experience</span> and
+                        <span class="header__descr-span">with extraordinary people</span></div>
+                    <a href="#main"><i class="fal fa-arrow-down header__icon"></i></a>
+                </div>
+            </div>
+
+    </header>
+    <!-- ******************************** HEADER END ********************************-->
+    <!--*****************************************************************************-->
+
+    <!-- ******************************** MAIN START ******************************** -->
+    <main class="main" id="main">
+        <div class="container">
+            <div class="row main__header">
+                <div class="col-lg-6">
+                    <img src="img/imac.jpg" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="main__head-title text-uppercase pb-4">Some words <span class="span_about">about us</span>
+                    </h2>
+                    <h3 class="main__header-title">Simple & Elegant User Interface</h3>
+                    <p class="main__header-desc">One morning, when Gregor Samsa woke from troubled dreams, he himself
+                        transformed in bed into a horrible vermin. He his armour-back.</p>
+                    <p class="main__header-descr">We love building and rebuilding brands through our specific skills.
+                        Using colour, fonts, and illustration, we brand companies in a way they will never forget.</p>
+
+
+                    <div class="list d-flex flex-column">
+                        <p class="list__description"> <span class="far fa-dot-circle pr-2"></span>Mission - <span
+                                class="list__span"> We deliver uniqueness and quality</span></p>
+                        <p class="list__description"> <span class="far fa-dot-circle pr-2"></span> Skills - <span
+                                class="list__span">Delivering fast and excellent results</span></p>
+                        <p class="list__description"> <span class="far fa-dot-circle pr-2"></span>Clients -<span
+                                class="list__span"> Satisfied clients thanks to our experience</span></p>
+                    </div>
+
+
+                    <a class="main__header-button" href="#"><span class="fal fa-briefcase"></span> Browse our work</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="carousel_first" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <a href="#"><i class="fad fa-square carousel__button active mr-3" data-target="#carousel_first"
+                        data-slide-to="0"></i></a>
+                <a href="#"><i class="fad fa-square carousel__button" data-target="#carousel_first"
+                        data-slide-to="1"></i></a>
+                <a href="#"><i class="fad fa-square carousel__button ml-3" data-target="#carousel_first"
+                        data-slide-to="2"></i></a>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="main__main d-block w-100">
+                        <div class="main__border d-flex flex-column justify-content-center align-items-center">
+                            <h1 class="main__main-h1 text-white text-uppercase">Meet <span class="main__h1-span">our
+                                    team</span></h1>
+                            <div class="main__main-border mb-2"></div>
+                            <div class="main__main-bord m-auto"></div>
+                        </div>
+
+                        <div class="d-flex">
+                            <div class="col-md-3 d-flex justify-content-center align-items-center flex-column">
+                                <img src="img/jason.jpg" alt="" class="main__actors-img">
+                                <h3 class="main__actors-title">Jason Statham</h3>
+                                <p class="main__actors-descr">Knife designer</p>
+                                <p class="main__actors-description text-center">Do not seek to change what has come
+                                    before. Seek to create that which has not.</p>
+                            </div>
+
+                            <div class="col-md-3 d-flex justify-content-center align-items-center flex-column">
+                                <img src="img/van damme.jpg" alt="" class="main__actors-img">
+                                <h3 class="main__actors-title">Van Damme</h3>
+                                <p class="main__actors-descr">No English</p>
+                                <p class="main__actors-description text-center">Do not seek to change what has come
+                                    before. Seek to create that which has not.</p>
+                            </div>
+
+                            <div class="col-md-3 d-flex justify-content-center align-items-center flex-column">
+                                <img src="img/stallone.jpg" alt="" class="main__actors-img">
+                                <h3 class="main__actors-title">Sylvester Stallone</h3>
+                                <p class="main__actors-descr">Cigar Lover</p>
+                                <p class="main__actors-description text-center">Do not seek to change what has come
+                                    before. Seek to create that which has not.</p>
+                            </div>
+
+                            <div class="col-md-3 d-flex justify-content-center align-items-center flex-column">
+                                <img src="img/jet li.jpg" alt="" class="main__actors-img">
+                                <h3 class="main__actors-title">Jet Li</h3>
+                                <p class="main__actors-descr">I need more money</p>
+                                <p class="main__actors-description text-center">Do not seek to change what has come
+                                    before. Seek to create that which has not.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="main__main d-block w-100">
+                        <div class="main__border d-flex flex-column justify-content-center align-items-center">
+                            <h1 class="main__main-h1 text-white text-uppercase">Meet <span class="main__h1-span">our
+                                    team</span></h1>
+                            <div class="main__main-border mb-2"></div>
+                            <div class="main__main-bord m-auto"></div>
+                        </div>
+
+                        <div class="d-flex">
+                            <div class="col-md-3 d-flex justify-content-center align-items-center flex-column">
+                                <img src="img/jason.jpg" alt="" class="main__actors-img">
+                                <h3 class="main__actors-title">Jason Statham</h3>
+                                <p class="main__actors-descr">Knife designer</p>
+                                <p class="main__actors-description text-center">Do not seek to change what has come
+                                    before. Seek to create that which has not.</p>
+                            </div>
+
+                            <div class="col-md-3 d-flex justify-content-center align-items-center flex-column">
+                                <img src="img/van damme.jpg" alt="" class="main__actors-img">
+                                <h3 class="main__actors-title">Van Damme</h3>
+                                <p class="main__actors-descr">No English</p>
+                                <p class="main__actors-description text-center">Do not seek to change what has come
+                                    before. Seek to create that which has not.</p>
+                            </div>
+
+                            <div class="col-md-3 d-flex justify-content-center align-items-center flex-column">
+                                <img src="img/stallone.jpg" alt="" class="main__actors-img">
+                                <h3 class="main__actors-title">Sylvester Stallone</h3>
+                                <p class="main__actors-descr">Cigar Lover</p>
+                                <p class="main__actors-description text-center">Do not seek to change what has come
+                                    before. Seek to create that which has not.</p>
+                            </div>
+
+                            <div class="col-md-3 d-flex justify-content-center align-items-center flex-column">
+                                <img src="img/jet li.jpg" alt="" class="main__actors-img">
+                                <h3 class="main__actors-title">Jet Li</h3>
+                                <p class="main__actors-descr">I need more money</p>
+                                <p class="main__actors-description text-center">Do not seek to change what has come
+                                    before. Seek to create that which has not.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <div class="main__main d-block w-100">
+                        <div class="main__border d-flex flex-column justify-content-center align-items-center">
+                            <h1 class="main__main-h1 text-white text-uppercase">Meet <span class="main__h1-span">our
+                                    team</span></h1>
+                            <div class="main__main-border mb-2"></div>
+                            <div class="main__main-bord m-auto"></div>
+                        </div>
+
+                        <div class="d-flex">
+                            <div class="col-md-3 d-flex justify-content-center align-items-center flex-column">
+                                <img src="img/jason.jpg" alt="" class="main__actors-img">
+                                <h3 class="main__actors-title">Jason Statham</h3>
+                                <p class="main__actors-descr">Knife designer</p>
+                                <p class="main__actors-description text-center">Do not seek to change what has come
+                                    before. Seek to create that which has not.</p>
+                            </div>
+
+                            <div class="col-md-3 d-flex justify-content-center align-items-center flex-column">
+                                <img src="img/van damme.jpg" alt="" class="main__actors-img">
+                                <h3 class="main__actors-title">Van Damme</h3>
+                                <p class="main__actors-descr">No English</p>
+                                <p class="main__actors-description text-center">Do not seek to change what has come
+                                    before. Seek to create that which has not.</p>
+                            </div>
+
+                            <div class="col-md-3 d-flex justify-content-center align-items-center flex-column">
+                                <img src="img/stallone.jpg" alt="" class="main__actors-img">
+                                <h3 class="main__actors-title">Sylvester Stallone</h3>
+                                <p class="main__actors-descr">Cigar Lover</p>
+                                <p class="main__actors-description text-center">Do not seek to change what has come
+                                    before. Seek to create that which has not.</p>
+                            </div>
+
+                            <div class="col-md-3 d-flex justify-content-center align-items-center flex-column">
+                                <img src="img/jet li.jpg" alt="" class="main__actors-img">
+                                <h3 class="main__actors-title">Jet Li</h3>
+                                <p class="main__actors-descr">I need more money</p>
+                                <p class="main__actors-description text-center">Do not seek to change what has come
+                                    before. Seek to create that which has not.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <section class="main__services">
+            <div class="main__border d-flex flex-column justify-content-center align-items-center">
+                <h1 class="main__services-title text-uppercase">Take a look at <span class="main__services-span">our
+                        services</span></h1>
+                <div class="main__main-border mb-2"></div>
+                <div class="main__main-bord m-auto"></div>
+                <p class="main__services-descr text-center">Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de
+                    Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book
+                    is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem
+                    Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+            </div>
+
+            <div class="d-flex">
+                <div class="col-md-3 d-flex justify-content-center align-items-center flex-column">
+                    <span class="far fa-desktop services__icon"></span>
+                    <h3 class="services__icon-title">Web design</h3>
+                    <p class="services__icon-description">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
+                        comes from a line in section 1.10.32.</p>
+                </div>
+
+                <div class="col-md-3 d-flex justify-content-center align-items-center flex-column">
+                    <span class="fas fa-mobile-alt services__icon"></span>
+                    <h3 class="services__icon-title">Mobile apps</h3>
+                    <p class="services__icon-description">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
+                        comes from a line in section 1.10.32.</p>
+                </div>
+
+                <div class="col-md-3 d-flex justify-content-center align-items-center flex-column">
+                    <i class="fas fa-camera services__icon"></i>
+                    <h3 class="services__icon-title">Photography</h3>
+                    <p class="services__icon-description">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
+                        comes from a line in section 1.10.32.</p>
+                </div>
+
+                <div class="col-md-3 d-flex justify-content-center align-items-center flex-column">
+                    <i class="fas fa-bullhorn services__icon services__icon-rotate"></i>
+                    <h3 class="services__icon-title">Marketing</h3>
+                    <p class="services__icon-description">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
+                        comes from a line in section 1.10.32.</p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <div id="carousel_second" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <a href="#"><i class="fad fa-square carousel__button active mr-3" data-target="#carousel_second"
+                    data-slide-to="0"></i></a>
+            <a href="#"><i class="fad fa-square carousel__button" data-target="#carousel_second"
+                    data-slide-to="1"></i></a>
+            <a href="#"><i class="fad fa-square carousel__button ml-3" data-target="#carousel_second"
+                    data-slide-to="2"></i></a>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="main__clients d-block w-100">
+                    <div class="main__border d-flex flex-column justify-content-center align-items-center">
+                        <h1 class="main__clients-title text-uppercase">Some of <span class="main__clients-span">our clients
+                        </span></h1>
+                        <div class="main__main-border mb-2"></div>
+                        <div class="main__main-bord m-auto"></div>
+                    </div>
+        
+                    <div class="d-flex">
+                        <div class="col-md-3 d-flex justify-content-center align-items-center">
+                            <img src="img/channel.jpg" alt="" class="clients-channel">
+                        </div>
+        
+                        <div class="col-md-2 d-flex justify-content-center align-items-center">
+                            <img src="img/zara.jpg" alt="" class="clients-img">
+                        </div>
+        
+                        <div class="col-md-2 d-flex justify-content-center align-items-center">
+                            <img src="img/guerlaing.jpg" alt="" class="clients-img">
+                        </div>
+        
+                        <div class="col-md-2 d-flex justify-content-center align-items-center">
+                            <img src="img/lancome.jpg" alt="" class="clients-img">
+                        </div>
+                        <div class="col-md-2 d-flex justify-content-center align-items-center">
+                            <img src="img/Lacoste.jpg" alt="" class="clients-img">
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="main__clients d-block w-100">
+                    <div class="main__border d-flex flex-column justify-content-center align-items-center">
+                        <h1 class="main__clients-title text-uppercase">Some of <span class="main__clients-span">our clients
+                        </span></h1>
+                        <div class="main__main-border mb-2"></div>
+                        <div class="main__main-bord m-auto"></div>
+                    </div>
+        
+                    <div class="d-flex">
+                        <div class="col-md-3 d-flex justify-content-center align-items-center">
+                            <img src="img/channel.jpg" alt="" class="clients-channel">
+                        </div>
+        
+                        <div class="col-md-2 d-flex justify-content-center align-items-center">
+                            <img src="img/zara.jpg" alt="" class="clients-img">
+                        </div>
+        
+                        <div class="col-md-2 d-flex justify-content-center align-items-center">
+                            <img src="img/guerlaing.jpg" alt="" class="clients-img">
+                        </div>
+        
+                        <div class="col-md-2 d-flex justify-content-center align-items-center">
+                            <img src="img/lancome.jpg" alt="" class="clients-img">
+                        </div>
+                        <div class="col-md-2 d-flex justify-content-center align-items-center">
+                            <img src="img/Lacoste.jpg" alt="" class="clients-img">
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="main__clients d-block w-100">
+                    <div class="main__border d-flex flex-column justify-content-center align-items-center">
+                        <h1 class="main__clients-title text-uppercase">Some of <span class="main__clients-span">our clients
+                        </span></h1>
+                        <div class="main__main-border mb-2"></div>
+                        <div class="main__main-bord m-auto"></div>
+                    </div>
+        
+                    <div class="d-flex">
+                        <div class="col-md-3 d-flex justify-content-center align-items-center">
+                            <img src="img/channel.jpg" alt="" class="clients-channel">
+                        </div>
+        
+                        <div class="col-md-2 d-flex justify-content-center align-items-center">
+                            <img src="img/zara.jpg" alt="" class="clients-img">
+                        </div>
+        
+                        <div class="col-md-2 d-flex justify-content-center align-items-center">
+                            <img src="img/guerlaing.jpg" alt="" class="clients-img">
+                        </div>
+        
+                        <div class="col-md-2 d-flex justify-content-center align-items-center">
+                            <img src="img/lancome.jpg" alt="" class="clients-img">
+                        </div>
+                        <div class="col-md-2 d-flex justify-content-center align-items-center">
+                            <img src="img/Lacoste.jpg" alt="" class="clients-img">
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="main__services">
+            <div class="main__border d-flex flex-column justify-content-center align-items-center">
+                <h1 class="main__services-title text-uppercase">Take a look at <span class="main__services-span">our
+                        work</span></h1>
+                <div class="main__main-border mb-2"></div>
+                <div class="main__main-bord m-auto"></div>
+                <p class="main__services-descr text-center">Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de
+                    Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book
+                    is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem
+                    Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+            </div>
+<div class="container">
+    <div class="main__work">
+        <nav class="nav__work d-flex justify-content-between align-items-center mb-4">
+            <div class="nav__work-left">
+                <a class="work__logo" href="#">Filter by type</a>
+            </div>
+            <div class="nav__work-right ">
+                <ul class="d-flex">
+                    <li>
+                        <a class="work__nav-link" href="#"> All |</a>
+                    </li>
+                    <li>
+                        <a class="work__nav-link" href="#"> Web design |</a>
+                    </li>
+                    <li>
+                        <a class="work__nav-link" href="#"> Mobile design |</a>
+                    </li>
+                    <li>
+                        <a class="work__nav-link" href="#"> Photography |</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="row">
+            <div class="col-lg-3 col-sm-6 col-12 mb-4">
+              <div class="item_img">
+                  <img src="img/music1.png" alt="">
+                  <div class="item_hover d-flex flex-column">
+                    <h3 class="item__hover-title">Trend and Fashion</h3>
+                    <p class="item__hover-descr">Web design</p>
+                    <a href="#" class="fas fa-plus item__hover-icon"></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-12 mb-4">
+                <div class="item_img">
+                    <img src="img/music1.png" alt="">
+                    <div class="item_hover d-flex flex-column">
+                      <h3 class="item__hover-title">Trend and Fashion</h3>
+                      <p class="item__hover-descr">Web design</p>
+                      <a href="#" class="fas fa-plus item__hover-icon"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6 col-12 mb-4">
+                <div class="item_img">
+                    <img src="img/music1.png" alt="">
+                    <div class="item_hover d-flex flex-column">
+                      <h3 class="item__hover-title">Trend and Fashion</h3>
+                      <p class="item__hover-descr">Web design</p>
+                      <a href="#" class="fas fa-plus item__hover-icon"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6 col-12 mb-4">
+                <div class="item_img">
+                    <img src="img/music1.png" alt="">
+                    <div class="item_hover d-flex flex-column">
+                      <h3 class="item__hover-title">Trend and Fashion</h3>
+                      <p class="item__hover-descr">Web design</p>
+                      <a href="#" class="fas fa-plus item__hover-icon"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6 col-12 mb-4">
+                <div class="item_img">
+                    <img src="img/music-yellow.png" alt="">
+                    <div class="item_hover d-flex flex-column">
+                      <h3 class="item__hover-title">Trend and Fashion</h3>
+                      <p class="item__hover-descr">Web design</p>
+                      <a href="#" class="fas fa-plus item__hover-icon"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6 col-12 mb-4">
+                <div class="item_img">
+                    <img src="img/music-yellow.png" alt="">
+                    <div class="item_hover d-flex flex-column">
+                      <h3 class="item__hover-title">Trend and Fashion</h3>
+                      <p class="item__hover-descr">Web design</p>
+                      <a href="#" class="fas fa-plus item__hover-icon"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6 col-12 mb-4">
+                <div class="item_img">
+                    <img src="img/music-grey.png" alt="">
+                    <div class="item_hover d-flex flex-column">
+                      <h3 class="item__hover-title">Trend and Fashion</h3>
+                      <p class="item__hover-descr">Web design</p>
+                      <a href="#" class="fas fa-plus item__hover-icon"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6 col-12 mb-4">
+                <div class="item_img">
+                    <img src="img/music-grey.png" alt="">
+                    <div class="item_hover d-flex flex-column">
+                      <h3 class="item__hover-title">Trend and Fashion</h3>
+                      <p class="item__hover-descr">Web design</p>
+                      <a href="#" class="fas fa-plus item__hover-icon"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6 col-12 music__last">
+                <div class="item_img">
+                    <img src="img/music-last.png" alt="">
+                    <div class="item_hover d-flex flex-column">
+                      <h3 class="item__hover-title">Trend and Fashion</h3>
+                      <p class="item__hover-descr">Web design</p>
+                      <a href="#" class="fas fa-plus item__hover-icon"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6 col-12 music__last">
+                <div class="item_img">
+                    <img src="img/music-last.png" alt="">
+                    <div class="item_hover d-flex flex-column">
+                      <h3 class="item__hover-title">Trend and Fashion</h3>
+                      <p class="item__hover-descr">Web design</p>
+                      <a href="#" class="fas fa-plus item__hover-icon"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6 col-12 music__last">
+                <div class="item_img">
+                    <img src="img/music-last.png" alt="">
+                    <div class="item_hover d-flex flex-column">
+                      <h3 class="item__hover-title">Trend and Fashion</h3>
+                      <p class="item__hover-descr">Web design</p>
+                      <a href="#" class="fas fa-plus item__hover-icon"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6 col-12 music__last">
+                <div class="item_img">
+                    <img src="img/music-last.png" alt="">
+                    <div class="item_hover d-flex flex-column">
+                      <h3 class="item__hover-title">Trend and Fashion</h3>
+                      <p class="item__hover-descr">Web design</p>
+                      <a href="#" class="fas fa-plus item__hover-icon"></a>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+</div> 
+  
+
+    
+
+    <div id="carousel_last" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <a href="#"><i class="fad fa-square carousel__button active mr-3" data-target="#carousel_last"
+                data-slide-to="0"></i></a>
+        <a href="#"><i class="fad fa-square carousel__button" data-target="#carousel_last"
+                data-slide-to="1"></i></a>
+        <a href="#"><i class="fad fa-square carousel__button ml-3" data-target="#carousel_last"
+                data-slide-to="2"></i></a>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              
+              <div class="main__clients d-block w-100">
+                  <div class="main__border d-flex flex-column justify-content-center align-items-center">
+                      <h1 class="main__clients-title text-uppercase">Our clients' <span class="main__clients-span">testominials
+                    </span></h1>
+                    <div class="main__main-border mb-2"></div>
+                    <div class="main__main-bord"></div>
+                </div>
+         <div class="container">
+                      <div class="main__testominials">
+                          <p class="main__testominials-descr text-uppercase  text-center m-auto">This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                          <p class="main__testominials-description  text-center ">Dean Martin, <span class="main__testominials-span"> CEO Acme Inc.</span></p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="main__clients d-block w-100">
+                <div class="main__border d-flex flex-column justify-content-center align-items-center">
+                    <h1 class="main__clients-title text-uppercase">Our clients' <span class="main__clients-span">testominials
+                    </span></h1>
+                    <div class="main__main-border mb-2"></div>
+                    <div class="main__main-bord"></div>
+                </div>
+        
+                <div class="container">
+                    <div class="main__testominials">
+                        <p class="main__testominials-descr text-uppercase  text-center m-auto">This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                        <p class="main__testominials-description  text-center ">Dean Martin, <span class="main__testominials-span"> CEO Acme Inc.</span></p>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="main__clients d-block w-100">
+                <div class="main__border d-flex flex-column justify-content-center align-items-center">
+                    <h1 class="main__clients-title text-uppercase">Our clients' <span class="main__clients-span">testominials
+                    </span></h1>
+                    <div class="main__main-border mb-2"></div>
+                    <div class="main__main-bord"></div>
+                </div>
+        
+                <div class="container">
+                    <div class="main__testominials">
+                        <p class="main__testominials-descr text-uppercase  text-center m-auto">This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                        <p class="main__testominials-description  text-center ">Dean Martin, <span class="main__testominials-span"> CEO Acme Inc.</span></p>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <section class="main__services">
+        <div class="main__border d-flex flex-column justify-content-center align-items-center">
+            <h1 class="main__services-title text-uppercase">Fell free to  <span class="main__services-span">contact us</span></h1>
+            <div class="main__main-border mb-2"></div>
+            <div class="main__main-bord m-auto"></div>
+            <p class="main__services-descr text-center">Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de
+                Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book
+                is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem
+                Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+        </div>
+
+        <div class="container">
+            <div class="input-group mb-3">
+                <div class="col-md-6">
+                    <p class="input__name-descr">Name <span class="input__name-span">*</span></p>
+                
+                    <input type="text" placeholder="There must be full of . . ." class="form-control d-flex justify-content-center" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                </div>
+                <div class="col-md-6">
+                    <p class="input__name-descr">Email address <span class="input__name-span">*</span></p>
+                
+                <input type="text" placeholder="There must be full of . . ." class="form-control d-flex justify-content-center" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                </div>
+                
+            </div>
+            <p class="input__name-descr ml-3">Email address <span class="input__name-span">*</span></p>
+            <div class="input-group ml-3 mb-5">
+                <input type="text" class="form-control message" placeholder="Type your message" aria-label="Имя получателя" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                </div>
+              </div>
+
+              <div class="button__send">
+                  
+                  <a class="input__button-send text-uppercase text-white" href="#">send</a> 
+              </div>
+        </div>
+    </section>
+      
+</main>
+<!-- ***************************** MAIN END ***************************************** -->
+<!-- ********************************************************************************* -->
+
+<!-- ******************************FOOTER START ************************************** -->
+    <footer class="footer d-flex">
+        <div class="col-md-6 d-flex align-items-center">
+           <a class="footer-descr" href="#">ALL RIGHTS RESERVED. COPYRIGHT © 2014 <span class="footer__descr-span"> SPIRIT8</span></a> 
+        </div>
+        <div class="col-md-6 footer__right">
+           <a href="https://www.facebook.com/"><i class="fab fa-facebook-f footer__icon"></i></a>
+           <a href="https://twitter.com/explore"><i class="fab fa-twitter footer__icon"></i></a>
+           <a href="https://myaccount.google.com/profile"><i class="fab fa-google-plus-g footer__icon"></i></a>
+           <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in footer__icon"></i></a> 
+           <a href="https://dribbble.com/"><i class="fal fa-basketball-ball footer__icon"></i></a>
+        </div>
+    </footer>
+<!-- ***************************** FOOTER END *************************************** -->
+<!-- ********************************************************************************* -->
+
+<!-- ***************************** JS - ПОДКЛЮЧЕНИЯ ********************************* -->
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
